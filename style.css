@@ -1,3 +1,11 @@
+#navBar {
+position: fixed;
+width:100%;
+margin:auto;
+right: 0px;
+z-index: 20;
+}
+
 #topSection {
   background-image: url('./offices.jpg');
   background-position: center;
@@ -8,10 +16,17 @@
 }
 #topSectionWording{
   position: relative;
-  top: 200px;
+  top: 400px;
+  opacity: .75;
+  z-index: 0;
 }
-h1 {
-  font-size: 40;
+#topSectionWording h1 {
+  font-size: 50px;
+  color: black;
+}
+#topSectionWording p {
+  font-size: 35px;
+  color: black;
 }
 
 
@@ -25,7 +40,7 @@ h1 {
 }
 #midSection1Wording{
   position: relative;
-  top: 200px;
+  top: 100px;
 }
 
 
@@ -39,6 +54,7 @@ h1 {
 }
 #midSection2Wording{
   position: relative;
+  top: 100px;
 }
 
 
@@ -52,4 +68,12 @@ h1 {
 }
 #bottomSectionWording{
   position: relative;
+  top: 200px;
+}
+
+#footer{
+  background-color:black;
+}
+#footerWording p {
+  display:inline;
 }
