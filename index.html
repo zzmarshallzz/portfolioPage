@@ -8,8 +8,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-
 <body>
+
+<!--NAV BAR-->
 <div id=topSection class="container-fluid">
   <nav id=navBar class="navbar navbar-inverse">
  <div class="container">
@@ -25,32 +26,77 @@
  </div>
 </nav>
 
-<div id=topSectionWording class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center well">
+<!--TOP SECTION: WELCOME-->
+<div id=topSectionContainer class="col-xs-4.text-left col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 text-center well">
 <h1> NeotekLuu </h1>
 <p> Welcome to the site. </p>
   </div>
 </div>
 
 
-
+<!--MID SECTION: ABOUT ME-->
 <div id=midSection1 class="container-fluid">
-  <div id=midSection1Wording class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
+  <div id=midSection1Container class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center well">
     <h2>About Me</h2>
+      <img id="aboutPic" src="marshall3.png" class="img-responsive">
+        <div id ="midSection1Wording1" class="jumbotron col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">
+          <p> &nbsp &nbsp &nbsp Marshall is an IT professional who has transitioned into the web development field.  Having the opportunity to previously work in areas of Information Technology, including Systems Administration/Application Support and Quality Assurance, he possesses a wealth of knowledge about the operation of computer systems and software. </p>
+          <p> Some skills include: </p>
+        </div>
   </div>
 </div>
 
+<!--MID SECTION: PORTFOLIO-->
 <div id=midSection2 class="container-fluid">
-  <div id=midSection2Wording class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
-    <h3>Portfolio</h3>
+  <div id=midSection2Container class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center">
+
+    <div id=midSection2Wording2 class="jumbotron">
+      <h3>Portfolio</h3>
+      <div class="row">
+      <div id ="project1-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well portfolioHeight">
+        <p>Portfolio site</p>
+        <img src="./portfolio/Portfolio.jpg" class="img-responsive">
+      </div>
+      <div id ="project2-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
+        <img src="./portfolio/coming-soon.png" class="img-responsive">
+      </div>
+      <div id ="project3-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
+        <img src="./portfolio/coming-soon.png" class="img-responsive">
+      </div>
+      </div>
+      <div class="row">
+      <div id ="project1-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
+        <img src="./portfolio/coming-soon.png" class="img-responsive">
+      </div>
+      <div id ="project2-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
+        <img src="./portfolio/coming-soon.png" class="img-responsive">
+      </div>
+      <div id ="project3-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
+        <img src="./portfolio/coming-soon.png" class="img-responsive">
+      </div>
+      </div>
+
+
+    </div>
   </div>
 </div>
 
+<!--BOTTOM SECTION: CONTACT-->
 <div id=bottomSection class="container-fluid">
-  <div id=bottomSectionWording class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
+  <div id=bottomSectionContainer class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
     <h4>Contact Information</h4>
+    <div id=bottomSectionWording class="text-left">
+      <br>
+      <ul>
+        <li>Email: zzmarshallzz14@hotmail.com</li>
+        <li>Ph: 469-912-4383</li>
+        </ul>
+    </div>
   </div>
 </div>
 
+
+<!--Footer-->
 <div id=footer class="container-fluid">
   <div id=footerWording>
   <p><a href="#topSection">Home<p>
