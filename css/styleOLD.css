@@ -1,0 +1,173 @@
+.containerImage{
+  background-image: url('images/offices.jpg');
+}
+
+
+
+#navBar {
+position: fixed;
+width:100%;
+margin:auto;
+right: 0px;
+z-index: 20;
+}
+.buttonOpacity{
+  opacity: 1;
+  z-index:20;
+}
+
+#topSection {
+  background-image: url('./offices.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#topSectionContainer1{
+  position: relative;
+  top: 400px;
+
+  z-index: 0;
+}
+#topSectionContainer2{
+    opacity: .75;
+}
+#topSectionContainer2 h1 {
+  font-size: 50px;
+  color: black;
+}
+#topSectionContainer2 p {
+  font-size: 35px;
+  color: black;
+}
+#buttons {
+  font-size: 25px;
+  color: black;
+}
+
+
+#midSection1 {
+  background-image: url('./coffee_cup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#midSection1Container{
+  position: relative;
+  top: 100px;
+  float: left;
+  opacity: .75;
+
+}
+#midSection1Wording1{
+  font-size: 22px;
+  color: black;
+}
+#aboutPic {
+  border-radius: 10%;
+  position: relative;
+  float: right;
+}
+
+#midSection2 {
+  background-image:url('./nature.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#midSection2Container{
+  position: relative;
+  opacity: 65%;
+  top: 50px;
+}
+#midSection2Wording2{
+background-size: cover;
+ padding-top: 1%;
+}
+#project1Image{
+  background-image:url('./portfolio/portfolioSite.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+#project2Image{
+  background-image:url('./portfolio/faycebookMock.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+#project3Image{
+  background-image:url('./portfolio/coming-soon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+#project4Image{
+  background-image:url('./portfolio/coming-soon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+#project5Image{
+  background-image:url('./portfolio/coming-soon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+#project6Image{
+  background-image:url('./portfolio/coming-soon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+}
+.portfolioHeight {
+  height: 350px;
+}
+.imageHeight {
+  height: 0px;
+}
+
+
+#bottomSection {
+  background-image:url('./laptop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#bottomSectionContainer{
+  position: relative;
+  top: 200px;
+}
+#bottomSectionContainer h4{
+    font-size: 40px;
+}
+#bottomSectionWording{
+  font-size: 30px;
+}
+
+
+#footer{
+  background-color:black;
+}
+#footerWording p {
+  display:inline;
+}

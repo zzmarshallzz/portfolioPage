@@ -1,147 +1,166 @@
-<!DOCTYPE=html>
+<!DOCTYPE html>
+<html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" type="text/css" href=".\style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
 </head>
 <body>
 
-<!--NAV BAR-->
-<div id=topSection class="container-fluid">
-  <nav id=navBar class="navbar navbar-inverse">
- <div class="container">
-   <div class="navbar-header">
-     <a class="navbar-brand" href="#">NeotekLuu</a>
-   </div>
-   <ul class="nav navbar-nav navbar-right">
-     <li><a href="#topSection">Home</a></li>
-     <li><a href="#midSection1">About</a></li>
-     <li><a href="#midSection2">Portfolio</a></li>
-     <li><a href="#bottomSection">Contact</a></li>
-   </ul>
- </div>
-</nav>
+  <!--NAV BAR-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Marshall Luu</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#topSection">Home</a></li>
+          <li><a href="#midSection1">About</a></li>
+          <li><a href="#midSection2">Portfolio</a></li>
+          <li><a href="#bottomSection">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+</div>
+
 
 <!--TOP SECTION: WELCOME-->
-<div id=topSectionContainer1 class="col-xs-4.text-left col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+<div class="container-fluid">
+  <section>
+    <div id="topSection" class="row topSection1Pic">
+      <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center well shiftDown opacity">
+        <h1 class="fontSizeLarge"> Marshall's Portfolio </h1>
+        <p class="fontSizeMedium"> Welcome to the site. </p>
+        <p><a class="btn btn-primary btn-lg" href="https://www.freecodecamp.com/zzmarshallzz" role="button">Free Code Camp</a></p>
+        <p><a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/marshall-luu-48106632" role="button">LinkedIn</a></p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/zzmarshallzz" role="button">GitHub</a></p>
+      </div>
+    </div>
+  </section>
 
-<div id=topSectionContainer2 class="text-center well">
-<h1> NeotekLuu </h1>
-<p> Welcome to the site. </p>
-</div>
-<div id="buttons">
-<a class="button buttonOpacity" href="https://www.freecodecamp.com/zzmarshallzz"><button> Free Code Camp</button></a>
-<a class="button buttonOpacity" href="https://www.linkedin.com/in/marshall-luu-48106632"><button> LinkedIn</button></a>
-<a class="button buttonOpacity" href="https://github.com/zzmarshallzz"><button> GitHub</button></a>
-  </div>
-</div>
-</div>
 
-
-<!--MID SECTION: ABOUT ME-->
-<div id=midSection1 class="container-fluid">
-  <div id=midSection1Container class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center well">
-    <h2>About Me</h2>
-      <img id="aboutPic" src="marshall3.png" class="img-responsive">
-        <div id ="midSection1Wording1" class="jumbotron col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">
+  <!--MID SECTION: ABOUT ME-->
+  <section>
+    <div id="midSection1" class="row midSection1Pic">
+      <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center well shiftDown opacity">
+        <h2>About Me</h2>
+        <img src="images/marshall3.png" class="img-responsive" style="opacity:1; float:right; border-radius: 10%;">
+        <div class="jumbotron col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left opacity" style="float:left;">
           <p> &nbsp &nbsp &nbsp Marshall is an IT professional who has transitioned into the web development field.  Having the opportunity to work in multiple areas of Information Technology, including Systems Administration/Application Support and Quality Assurance, he possesses a wealth of knowledge about the operation of computer systems and software. </p>
           <p> Competencies/Languages: </p>
-            <ul>
-              <li>HTML/CSS/JavaScript</li>
-              <li>Java</li>
-              <li>SQL</li>
-              <li>Shell Scripting</li>
-            </ul>
+          <ul class="fontSizeMedium">
+            <li>HTML/CSS/JavaScript</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Shell Scripting</li>
+          </ul>
         </div>
-  </div>
-</div>
+      </div>
+    </div>
+  </section>
 
-<!--MID SECTION: PORTFOLIO-->
-<div id=midSection2 class="container-fluid">
-  <div id=midSection2Container class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center">
-    <div id=midSection2Wording2 class="text-center well">
-      <h3>Portfolio</h3>
-      <div class="row">
-      <div id ="project1-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Portfolio site</p>
-          <div class="portfolioHeight">
-          <div id="project1Image"></div>
-        <p>HTML5/CSS3/Bootstrap</p>
+  <!--MID SECTION: PORTFOLIO-->
+  <section>
+    <div id="midSection2" class="row midSection2Pic">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center shiftDown well">
+        <div class="text-center">
+          <h3>Portfolio</h3>
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Portfolio site</p>
+              <div class="portfolioHeight">
+                <a href="#"><img src="./images/portfolioSite.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>HTML5/CSS3/Bootstrap</p>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Faycebook (mockup)</p>
+              <div class="portfolioHeight">
+                <a href="#"> <img href="" src="./images/faycebookMock.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>HTML5/CSS3/Bootstrap</p>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Coming Soon</p>
+              <div class="portfolioHeight">
+                <a href="#"><img src="./images/coming-soon.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>Coming Soon</p>
+              </div>
+            </div>
           </div>
-      </div>
-      <div id ="project2-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Faycebook (mockup)</p>
-          <div class="portfolioHeight">
-        <div id="project2Image"></div>
-          <p>HTML5/CSS3/Bootstrap</p>
-      </div>
-      </div>
-      <div id ="project3-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Coming Soon</p>
-          <div class="portfolioHeight">
-         <div id="project3Image"></div>
-          <p>Coming Soon</p>
-      </div>
-      </div>
-      </div>
-      <div class="row">
-      <div id ="project4-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Coming Soon</p>
-          <div class="portfolioHeight">
-          <div id="project4Image"></div>
-        <p>Coming Soon</p>
-      </div>
-      </div>
-      <div id ="project5-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Coming Soon</p>
-          <div class="portfolioHeight">
-          <div id="project5Image"></div>
-        <p>Coming Soon</p>
-      </div>
-      </div>
-      <div id ="project6-1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well">
-        <p>Coming Soon</p>
-          <div class="portfolioHeight">
-          <div id="project6Image"></div>
-        <p>Coming Soon</p>
-      </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--BOTTOM SECTION: CONTACT-->
-<div id=bottomSection class="container-fluid">
-  <div id=bottomSectionContainer class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
-    <h4>Contact Information</h4>
-    <div id=bottomSectionWording class="text-left">
-      <br>
-      <ul>
-        <li>Email: zzmarshallzz14@gmail.com</li>
-        <li>Ph: Upon request</li>
-        </ul>
-        <p>Located at:</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13380.61816499743!2d-97.02008659015134!3d33.02605875633854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2dcfae7b301f%3A0xb23dd6132009aa4a!2sS+Valley+Pkwy%2C+Lewisville%2C+TX+75067!5e0!3m2!1sen!2sus!4v1488247247894" width="400" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    </div>
-</div>
-
-
-<!--Footer-->
-<div id=footer class="container-fluid">
-  <div id=footerWording>
-  <p><a href="#topSection">Home<p>
-    <p><a href="#midSection1">About<p>
-      <p><a href="#midSection2">Portfolio<p>
-        <p><a href="#bottomSection">Contact<p>
-      <p style="font-size:12px">Copyright NeotekLuu 2017</p>
+          <div class="row">
+            <div  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Coming Soon</p>
+              <div class="portfolioHeight">
+                <a href="#"><img src="./images/coming-soon.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>Coming Soon</p>
+              </div>
+            </div>
+            <div  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Coming Soon</p>
+              <div class="portfolioHeight">
+                <a href="#"><img src="./images/coming-soon.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>Coming Soon</p>
+              </div>
+            </div>
+            <div  class="col-xs-4 col-sm-4 col-md-4 col-lg-4 well opacity">
+              <p>Coming Soon</p>
+              <div class="portfolioHeight">
+                <a href="#"><img src="./images/coming-soon.png" class="img-responsive" style="height:250px; width:100%;"></a>
+                <p>Coming Soon</p>
+              </div>
+            </div>
+          </div>
         </div>
-</div>
+      </div>
+    </div>
+  </section>
 
-</body>
+  <!--BOTTOM SECTION: CONTACT-->
+  <section>
+    <div id="bottomSection" class="row bottomSection1Pic">
+      <div style="top:350px;" class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center opacity">
+        <h4>Contact Information</h4>
+        <div class="text-left">
+          <br>
+          <ul>
+            <li>Email: zzmarshallzz14@gmail.com</li>
+            <li>Ph: Upon request</li>
+          </ul>
+          <p>Located at:</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13380.61816499743!2d-97.02008659015134!3d33.02605875633854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2dcfae7b301f%3A0xb23dd6132009aa4a!2sS+Valley+Pkwy%2C+Lewisville%2C+TX+75067!5e0!3m2!1sen!2sus!4v1488247247894" width="400" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <section>
+    <div id="footer">
+      <p><a href="#topSection">Home<p>
+        <p><a href="#midSection1">About<p>
+          <p><a href="#midSection2">Portfolio<p>
+            <p><a href="#bottomSection">Contact<p>
+              <p style="font-size:12px">Copyright Marshall Luu 2017</p>
+            </div>
+          </section>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      </body>
+      </html>

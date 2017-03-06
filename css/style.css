@@ -1,0 +1,50 @@
+.topSection1Pic {
+  background-image: url('../images/offices.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1440px;
+}
+.midSection1Pic {
+  background-image: url('../images/coffee_cup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1440px;
+}
+.midSection2Pic {
+  background-image: url('../images/nature.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1440px;
+}
+.bottomSection1Pic {
+  background-image: url('../images/laptop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1440px;
+}
+.shiftDown {
+  top: 150px;
+}
+
+div.opacity {
+    background: rgba(255, 255, 255, 0.3);
+}
+.fontSizeMedium{
+  font-size:20px;
+}
+.fontSizeLarge{
+  font-size:40px;
+}
+
+
+#footer p{
+  display:inline;
+}
