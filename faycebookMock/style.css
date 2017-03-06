@@ -1,0 +1,54 @@
+#containerHeader {
+  background-color: #3b5998;
+}
+#containerHeader2 {
+  background-color: #3b5998;
+}
+#topHeader {
+  background-color: #3b5998;
+  color: white;
+  float: left;
+}
+#topHeader2 {
+  background-color: #3b5998;
+  color:white;
+  float: right;
+}
+#headerFormUserName {
+  float:left;
+}
+#headerFormPassword {
+  float:left;
+}
+
+
+
+#bodyContainer {
+  background-color: #E8E8EE;
+  clear:both;
+}
+#body1 {
+  background-color: #E8E8EE;
+  float: left;
+}
+#body2 {
+  background-color: #E8E8EE;
+  float: right;
+}
+#bodyFormDropdown {
+  float: left;
+}
+#linkBirthday {
+float: left;
+}
+
+
+
+#footerContainer {
+  background-color: white;
+}
+#footer1 {
+  background-color: white;
+  clear:both;
+  font-size: small;
+}
