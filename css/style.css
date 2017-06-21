@@ -1,41 +1,128 @@
+body{
+background-color: rgba(160,160,160,.8)
+ width: 100%; 
+}
+body h4{
+margin-top:0px !important;
+margin-bottom:0px !important;
+font-size: 60px;
+text-align: center;
+color: white;
+}
+
+
 .topSection1Pic {
   background-image: url('../images/offices.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
-  height: 1440px;
+  height: 1000px;
 }
 .midSection1Pic {
   background-image: url('../images/coffee_cup.jpg');
+ background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
-  height: 1440px;
+  height: 1000px;
 }
 .midSection2Pic {
   background-image: url('../images/nature.jpg');
+ background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
-  height: 1440px;
+  height: 1000px;
 }
 .bottomSection1Pic {
   background-image: url('../images/laptop.jpg');
+ background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
-  height: 1440px;
+  height: 1000px;
+
 }
+
+
+.aboutMe{
+display:inline;
+}
+
+#AboutMe{
+Height:100%;
+}
+
+#bottomSection2{
+	top:8%;
+	background-color: rgba(128,128,128,.8);
+}
+
+#bottomSection3 ul li{
+font-size:20px;
+}
+
+
+
+
+
+
+.DivSectionColor{
+background-color: rgb(48,48,48)
+}
+
+#TopDiv{
+height: 200px;
+position:relative;
+top:30%;
+}
+#Mid1Div{
+height: 200px;
+position:relative;
+top:30%;
+}
+#Mid2Div{
+height: 200px;
+position:relative;
+top:30%;
+}
+#BottomDiv{
+height: 200px;
+position:relative;
+top:30%;
+}
+
+#TopDiv div{
+
+position:relative;
+top:30%;
+}
+#Mid1Div div{
+
+position:relative;
+top:30%;
+}
+#Mid2Div div{
+
+position:relative;
+top:30%;
+}
+#BottomDiv div{
+
+position:relative;
+top:30%;
+}
+
+
+
+
 .shiftDown {
   top: 150px;
 }
 
 div.opacity {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.8);
 }
 .fontSizeMedium{
   font-size:20px;
