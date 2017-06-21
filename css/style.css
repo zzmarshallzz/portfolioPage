@@ -46,11 +46,13 @@ color: white;
 }
 
 
-.aboutMe{
-display:inline;
+#aboutMeWrapper{
+padding-bottom: 2%; 
+padding-right: 2%;
+
 }
 
-#AboutMe{
+#aboutMe{
 Height:100%;
 }
 
